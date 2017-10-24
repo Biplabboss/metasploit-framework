@@ -13,7 +13,7 @@ apt install -y curl
 
 
 
-curl-LO https://raw.githubusercontent.com/Biplabboss/metasploit-framework/master/metasploit.sh
+curl -LO https://raw.githubusercontent.com/Biplabboss/metasploit-framework/master/metasploit.sh
 
 
 
