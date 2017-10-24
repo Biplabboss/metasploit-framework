@@ -58,4 +58,4 @@ createdb msf_database
 gem install lolcat
 pkg install figlet
 figlet -f big "Biplab Das" | lolcat
-echo "you can directly use msfvenom or msfconsole rather than ./msfvenom or ./msfconsole as they are symlinked to $PREFIX/bin""
+echo "you can directly use msfvenom or msfconsole rather than ./msfvenom or ./msfconsole as they are symlinked to $PREFIX/bin"
