@@ -3,13 +3,11 @@
 msfvar=4.16.12
 
 apt update
-pkg install -y ruby
-gem install lolcat
 apt install -y autoconf bison clang coreutils toilet curl findutils git apr apr-util libffi-dev libgmp-dev libpcap-dev \
     postgresql-dev readline-dev libsqlite-dev openssl-dev libtool libxml2-dev libxslt-dev ncurses-dev pkg-config \
     postgresql-contrib wget make ruby-dev libgrpc-dev termux-tools ncurses-utils ncurses unzip zip tar postgresql termux-elf-cleaner
-
-toilet -f term -F border -F metal "Follow my social handle{wp- +1(518) 350-6393}"
+toilet -f mono12 -F border "Biplab"
+toilet -f term -F border -F metal "Follow my social handle wp- +1(518) 350-6393"
 cd $HOME
 curl -LO https://github.com/rapid7/metasploit-framework/archive/$msfvar.tar.gz
 tar -xf $HOME/$msfvar.tar.gz
@@ -57,7 +55,7 @@ createuser msf
 createdb msf_database
 
 
-
+gem install lolcat
 pkg install figlet
 figlet -f big "Biplab Das" | lolcat
 echo "you can directly use msfvenom or msfconsole rather than ./msfvenom or ./msfconsole as they are symlinked to $PREFIX/bin""
